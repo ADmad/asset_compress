@@ -22,8 +22,13 @@ Asset Compress is CakePHP plugin for helping reduce the number of requests, and 
 
 ## Installing
 
-Clone or download the plugin into one of your plugin paths. Then make
-sure you load the plugin:
+Install using `composer`:
+
+```
+composer require markstory/asset_compress
+``
+
+Then load the plugin:
 
 	// in config/bootstrap.php
 	Plugin::load('AssetCompress', ['bootstrap' => true]);
